@@ -9,3 +9,7 @@ git clone https://...
 git add .
 git commit -a -m "Comentario"
 git push
+
+git status
+git diff
+git log --oneline
