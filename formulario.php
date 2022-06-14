@@ -10,4 +10,5 @@ php html
 
 <?php
 
-echo $_GET['dato1']+$_GET['dato2']
+if(isset($_GET['dato1']))
+	echo $_GET['dato1']+$_GET['dato2']
